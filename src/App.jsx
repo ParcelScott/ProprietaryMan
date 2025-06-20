@@ -71,9 +71,15 @@ function App() {
 
         <section id="about" className="mb-24 pt-16">
           <h2 className="text-5xl font-heading text-center mb-12 text-primary">About</h2>
-          <div className="max-w-3xl mx-auto leading-relaxed text-lg">
+          <div className="max-w-3xl mx-auto leading-relaxed text-lg space-y-4">
+            <p> 
+              For over two decades, a project has been running. The initial query was simple: "What is the optimal algorithm for friendship?" The result is The Data Scientist & The Standard Deviations.
+            </p>
             <p>
-              {/* Bio will go here */}
+              Our model has been in continuous training for more than 20 years, processing a massive dataset of ups, downs, and unforgettable outliers. We've handled exceptions you wouldn't believe (some involving tasers, others involving a startling lack of shirts) and troubleshooted bugs in real-time. Through it all, one correlation has remained statistically significant and consistently positive: our love for the lead scientist, David.
+            </p>
+            <p>
+              This collection of songs is the output of that long-running model. It's a final report, a peer-reviewed study, and a celebratory deployment all in one. Our data is messy, our methods are sometimes questionable, but our conclusion is sound: David is the absolute best, and we are overjoyed to be his Standard Deviations.
             </p>
           </div>
         </section>
