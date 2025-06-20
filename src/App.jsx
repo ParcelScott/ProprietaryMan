@@ -86,9 +86,20 @@ function App() {
 
         <section id="dedication" className="pt-16">
           <h2 className="text-5xl font-heading text-center mb-12 text-primary">For David & Natalie</h2>
-          <div className="max-w-3xl mx-auto text-center leading-relaxed text-lg">
+          <div className="max-w-3xl mx-auto text-center leading-relaxed text-lg space-y-4">
             <p>
-              {/* Dedication text will go here */}
+              After years of running simulations, you've found the optimal solution. A model of love this strong doesn't need A/B testing; its success was a predictable outcome from the moment your datasets were joined.
+            </p>
+            <p>
+              Your marriage is the successful deployment we've all been waiting for. It's the merger of two clean, well-documented codebases, destined to run without bugs for a lifetime. May your future together have low variance, a consistently positive trend line, and a bond with an R-squared value of 1.
+            </p>
+            <p>
+              We wish you a lifetime of happiness.
+            </p>
+            <p className="mt-8">
+              With love,
+              <br />
+              The Standard Deviations
             </p>
           </div>
         </section>
