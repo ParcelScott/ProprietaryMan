@@ -27,7 +27,7 @@ function App() {
       
       <header
         id="home"
-        className="relative h-screen flex flex-col justify-end items-center text-center"
+        className="relative h-screen flex flex-col justify-end"
       >
         <div
           className="absolute inset-0 bg-cover bg-top grayscale"
@@ -35,11 +35,11 @@ function App() {
         ></div>
         <div className="absolute inset-0 bg-black/25"></div>
         
-        <div className="relative z-10 p-8 pb-24">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-heading font-bold text-white tracking-wider uppercase">
+        <div className="relative z-10 text-center p-4 pb-16 sm:p-8 sm:pb-24">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-heading font-bold text-white tracking-normal sm:tracking-wider uppercase">
             The Data Scientist & The Standard Deviations
           </h1>
-          <h2 className="text-xl md:text-3xl font-heading text-white mt-4" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)' }}>
+          <h2 className="text-lg md:text-2xl font-heading text-white mt-4" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)' }}>
             An Album of Statistically Significant Love
           </h2>
         </div>
