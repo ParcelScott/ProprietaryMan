@@ -30,8 +30,11 @@ function App() {
         className="relative h-screen flex flex-col justify-end"
       >
         <div
-          className="absolute inset-0 bg-cover bg-top grayscale"
-          style={{ backgroundImage: `url(${bandPhoto})` }}
+          className="absolute inset-0 bg-cover grayscale"
+          style={{ 
+            backgroundImage: `url(${bandPhoto})`,
+            backgroundPosition: 'top' 
+          }}
         ></div>
         <div className="absolute inset-0 bg-black/25"></div>
         
