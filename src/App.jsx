@@ -9,8 +9,7 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-background/80 backdrop-blur-sm p-4 z-10">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-heading font-bold text-primary">The Data Scientist &...</h1>
+      <div className="container mx-auto flex justify-end items-center">
         <div className="space-x-4">
           <button onClick={() => scrollToSection('music')} className="font-heading hover:text-primary transition-colors">Music</button>
           <button onClick={() => scrollToSection('about')} className="font-heading hover:text-primary transition-colors">About</button>
