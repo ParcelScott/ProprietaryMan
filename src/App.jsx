@@ -1,3 +1,4 @@
+import React, { useLayoutEffect } from 'react';
 import bandPhoto from './assets/band-photo.jpeg';
 import proprietaryManSong from './assets/proprietary-man-final.mp3';
 import sixteenSprintsSong from './assets/sixteen-sprints-final.mp3';
@@ -21,13 +22,22 @@ const Nav = () => {
 };
 
 function App() {
+  useLayoutEffect(() => {
+    const updateHeight = () => {
+      document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+    };
+    window.addEventListener('resize', updateHeight);
+    updateHeight();
+    return () => window.removeEventListener('resize', updateHeight);
+  }, []);
+
   return (
     <div className="bg-background text-text font-body">
       <Nav />
       
       <header
         id="home"
-        className="relative h-screen flex flex-col justify-end"
+        className="relative h-screen-dynamic flex flex-col justify-end"
       >
         <img 
           src={bandPhoto} 
