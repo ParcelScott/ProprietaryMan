@@ -36,10 +36,10 @@ function App() {
         <div className="absolute inset-0 bg-black/25"></div>
         
         <div className="relative z-10 p-8 pb-24">
-          <h1 className="text-6xl md:text-8xl font-heading font-bold text-white tracking-wider uppercase">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-heading font-bold text-white tracking-wider uppercase">
             The Data Scientist & The Standard Deviations
           </h1>
-          <h2 className="text-2xl md:text-3xl font-heading text-white mt-4" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)' }}>
+          <h2 className="text-xl md:text-3xl font-heading text-white mt-4" style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)' }}>
             An Album of Statistically Significant Love
           </h2>
         </div>
@@ -47,7 +47,7 @@ function App() {
 
       <main className="container mx-auto p-8 md:p-16">
         <section id="music" className="mb-24 pt-16">
-          <h2 className="text-5xl font-heading text-center mb-12 text-primary">Music</h2>
+          <h2 className="text-3xl md:text-5xl font-heading text-center mb-12 text-primary">Music</h2>
           <div className="max-w-3xl mx-auto">
             {/* Song 1 */}
             <div className="mb-12">
@@ -69,7 +69,7 @@ function App() {
         </section>
 
         <section id="about" className="mb-24 pt-16">
-          <h2 className="text-5xl font-heading text-center mb-12 text-primary">About</h2>
+          <h2 className="text-3xl md:text-5xl font-heading text-center mb-12 text-primary">About</h2>
           <div className="max-w-3xl mx-auto leading-relaxed text-lg space-y-4">
             <p> 
               For over two decades, a project has been running. The initial query was simple: "What is the optimal algorithm for friendship?" The result is The Data Scientist & The Standard Deviations.
@@ -84,7 +84,7 @@ function App() {
         </section>
 
         <section id="dedication" className="pt-16">
-          <h2 className="text-5xl font-heading text-center mb-12 text-primary">For David & Natalie</h2>
+          <h2 className="text-3xl md:text-5xl font-heading text-center mb-12 text-primary">For David & Natalie</h2>
           <div className="max-w-3xl mx-auto text-center leading-relaxed text-lg space-y-4">
             <p>
               After years of running simulations, you've found the optimal solution. A model of love this strong doesn't need A/B testing; its success was a predictable outcome from the moment your datasets were joined.
