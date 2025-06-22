@@ -13,6 +13,7 @@ const Nav = () => {
       <div className="container mx-auto flex justify-end items-center">
         <div className="space-x-4">
           <button onClick={() => scrollToSection('music')} className="font-heading hover:text-primary transition-colors">Music</button>
+          <button onClick={() => scrollToSection('shows')} className="font-heading hover:text-primary transition-colors">Shows</button>
           <button onClick={() => scrollToSection('about')} className="font-heading hover:text-primary transition-colors">About</button>
           <button onClick={() => scrollToSection('dedication')} className="font-heading hover:text-primary transition-colors">Dedication</button>
         </div>
@@ -76,6 +77,13 @@ function App() {
                 Your browser does not support the audio element.
               </audio>
             </div>
+          </div>
+        </section>
+
+        <section id="shows" className="mb-24 pt-16">
+          <h2 className="text-3xl md:text-5xl font-heading text-center mb-12 text-primary">Upcoming Shows</h2>
+          <div className="max-w-3xl mx-auto text-center leading-relaxed text-lg">
+            <p>Our tour schedule is currently empty. It seems the global demand for statistically significant rock anthems is still in beta testing. We'll let you know when it deploys.</p>
           </div>
         </section>
 
